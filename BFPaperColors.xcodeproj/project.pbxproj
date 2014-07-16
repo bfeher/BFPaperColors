@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F462463819762098008CE1F3 /* UIColor+BFPaperColors.m in Sources */ = {isa = PBXBuildFile; fileRef = F462463719762098008CE1F3 /* UIColor+BFPaperColors.m */; };
 		F462463E197631DD008CE1F3 /* BFPaperColorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F462463D197631DD008CE1F3 /* BFPaperColorViewController.m */; };
 		F4624641197631F1008CE1F3 /* BFPaperColorListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4624640197631F1008CE1F3 /* BFPaperColorListViewController.m */; };
+		F4624644197637EF008CE1F3 /* UIColor+BFPaperColors.m in Sources */ = {isa = PBXBuildFile; fileRef = F4624643197637EF008CE1F3 /* UIColor+BFPaperColors.m */; };
 		F474FC4D19761F9C00BD436C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F474FC4C19761F9C00BD436C /* Foundation.framework */; };
 		F474FC4F19761F9C00BD436C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F474FC4E19761F9C00BD436C /* CoreGraphics.framework */; };
 		F474FC5119761F9C00BD436C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F474FC5019761F9C00BD436C /* UIKit.framework */; };
@@ -36,12 +36,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		F462463619762098008CE1F3 /* UIColor+BFPaperColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+BFPaperColors.h"; sourceTree = "<group>"; };
-		F462463719762098008CE1F3 /* UIColor+BFPaperColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+BFPaperColors.m"; sourceTree = "<group>"; };
 		F462463C197631DD008CE1F3 /* BFPaperColorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFPaperColorViewController.h; sourceTree = "<group>"; };
 		F462463D197631DD008CE1F3 /* BFPaperColorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFPaperColorViewController.m; sourceTree = "<group>"; };
 		F462463F197631F1008CE1F3 /* BFPaperColorListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFPaperColorListViewController.h; sourceTree = "<group>"; };
 		F4624640197631F1008CE1F3 /* BFPaperColorListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFPaperColorListViewController.m; sourceTree = "<group>"; };
+		F4624642197637EF008CE1F3 /* UIColor+BFPaperColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+BFPaperColors.h"; path = "UIColor+BFPaperColor Category/UIColor+BFPaperColors.h"; sourceTree = SOURCE_ROOT; };
+		F4624643197637EF008CE1F3 /* UIColor+BFPaperColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+BFPaperColors.m"; path = "UIColor+BFPaperColor Category/UIColor+BFPaperColors.m"; sourceTree = SOURCE_ROOT; };
 		F474FC4919761F9C00BD436C /* BFPaperColors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BFPaperColors.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F474FC4C19761F9C00BD436C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F474FC4E19761F9C00BD436C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -88,8 +88,8 @@
 		F462463519762083008CE1F3 /* BFPaperColors Category */ = {
 			isa = PBXGroup;
 			children = (
-				F462463619762098008CE1F3 /* UIColor+BFPaperColors.h */,
-				F462463719762098008CE1F3 /* UIColor+BFPaperColors.m */,
+				F4624642197637EF008CE1F3 /* UIColor+BFPaperColors.h */,
+				F4624643197637EF008CE1F3 /* UIColor+BFPaperColors.m */,
 			);
 			name = "BFPaperColors Category";
 			sourceTree = "<group>";
@@ -269,10 +269,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F4624641197631F1008CE1F3 /* BFPaperColorListViewController.m in Sources */,
-				F462463819762098008CE1F3 /* UIColor+BFPaperColors.m in Sources */,
 				F474FC5919761F9C00BD436C /* main.m in Sources */,
 				F474FC5D19761F9C00BD436C /* BFPaperAppDelegate.m in Sources */,
 				F462463E197631DD008CE1F3 /* BFPaperColorViewController.m in Sources */,
+				F4624644197637EF008CE1F3 /* UIColor+BFPaperColors.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
