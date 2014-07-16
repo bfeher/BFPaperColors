@@ -1,5 +1,5 @@
 //
-//  BFPaperViewController.h
+//  BFPaperColorListViewController.h
 //  BFPaperColors
 //
 //  Created by Bence Feher on 7/16/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface BFPaperViewController : UIViewController
+@interface BFPaperColorListViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
 
 @end

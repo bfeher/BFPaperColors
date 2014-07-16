@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F462463819762098008CE1F3 /* UIColor+BFPaperColors.m in Sources */ = {isa = PBXBuildFile; fileRef = F462463719762098008CE1F3 /* UIColor+BFPaperColors.m */; };
+		F462463E197631DD008CE1F3 /* BFPaperColorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F462463D197631DD008CE1F3 /* BFPaperColorViewController.m */; };
+		F4624641197631F1008CE1F3 /* BFPaperColorListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4624640197631F1008CE1F3 /* BFPaperColorListViewController.m */; };
 		F474FC4D19761F9C00BD436C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F474FC4C19761F9C00BD436C /* Foundation.framework */; };
 		F474FC4F19761F9C00BD436C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F474FC4E19761F9C00BD436C /* CoreGraphics.framework */; };
 		F474FC5119761F9C00BD436C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F474FC5019761F9C00BD436C /* UIKit.framework */; };
@@ -14,7 +17,6 @@
 		F474FC5919761F9C00BD436C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F474FC5819761F9C00BD436C /* main.m */; };
 		F474FC5D19761F9C00BD436C /* BFPaperAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F474FC5C19761F9C00BD436C /* BFPaperAppDelegate.m */; };
 		F474FC6019761F9C00BD436C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F474FC5E19761F9C00BD436C /* Main.storyboard */; };
-		F474FC6319761F9C00BD436C /* BFPaperViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F474FC6219761F9C00BD436C /* BFPaperViewController.m */; };
 		F474FC6519761F9C00BD436C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F474FC6419761F9C00BD436C /* Images.xcassets */; };
 		F474FC6C19761F9C00BD436C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F474FC6B19761F9C00BD436C /* XCTest.framework */; };
 		F474FC6D19761F9C00BD436C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F474FC4C19761F9C00BD436C /* Foundation.framework */; };
@@ -34,6 +36,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F462463619762098008CE1F3 /* UIColor+BFPaperColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+BFPaperColors.h"; sourceTree = "<group>"; };
+		F462463719762098008CE1F3 /* UIColor+BFPaperColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+BFPaperColors.m"; sourceTree = "<group>"; };
+		F462463C197631DD008CE1F3 /* BFPaperColorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFPaperColorViewController.h; sourceTree = "<group>"; };
+		F462463D197631DD008CE1F3 /* BFPaperColorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFPaperColorViewController.m; sourceTree = "<group>"; };
+		F462463F197631F1008CE1F3 /* BFPaperColorListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFPaperColorListViewController.h; sourceTree = "<group>"; };
+		F4624640197631F1008CE1F3 /* BFPaperColorListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFPaperColorListViewController.m; sourceTree = "<group>"; };
 		F474FC4919761F9C00BD436C /* BFPaperColors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BFPaperColors.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F474FC4C19761F9C00BD436C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F474FC4E19761F9C00BD436C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -45,8 +53,6 @@
 		F474FC5B19761F9C00BD436C /* BFPaperAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BFPaperAppDelegate.h; sourceTree = "<group>"; };
 		F474FC5C19761F9C00BD436C /* BFPaperAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BFPaperAppDelegate.m; sourceTree = "<group>"; };
 		F474FC5F19761F9C00BD436C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F474FC6119761F9C00BD436C /* BFPaperViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BFPaperViewController.h; sourceTree = "<group>"; };
-		F474FC6219761F9C00BD436C /* BFPaperViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BFPaperViewController.m; sourceTree = "<group>"; };
 		F474FC6419761F9C00BD436C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F474FC6A19761F9C00BD436C /* BFPaperColorsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BFPaperColorsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F474FC6B19761F9C00BD436C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -79,6 +85,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F462463519762083008CE1F3 /* BFPaperColors Category */ = {
+			isa = PBXGroup;
+			children = (
+				F462463619762098008CE1F3 /* UIColor+BFPaperColors.h */,
+				F462463719762098008CE1F3 /* UIColor+BFPaperColors.m */,
+			);
+			name = "BFPaperColors Category";
+			sourceTree = "<group>";
+		};
 		F474FC4019761F9C00BD436C = {
 			isa = PBXGroup;
 			children = (
@@ -112,11 +127,11 @@
 		F474FC5219761F9C00BD436C /* BFPaperColors */ = {
 			isa = PBXGroup;
 			children = (
-				F474FC5B19761F9C00BD436C /* BFPaperAppDelegate.h */,
-				F474FC5C19761F9C00BD436C /* BFPaperAppDelegate.m */,
-				F474FC5E19761F9C00BD436C /* Main.storyboard */,
-				F474FC6119761F9C00BD436C /* BFPaperViewController.h */,
-				F474FC6219761F9C00BD436C /* BFPaperViewController.m */,
+				F462463519762083008CE1F3 /* BFPaperColors Category */,
+				F462463C197631DD008CE1F3 /* BFPaperColorViewController.h */,
+				F462463D197631DD008CE1F3 /* BFPaperColorViewController.m */,
+				F462463F197631F1008CE1F3 /* BFPaperColorListViewController.h */,
+				F4624640197631F1008CE1F3 /* BFPaperColorListViewController.m */,
 				F474FC6419761F9C00BD436C /* Images.xcassets */,
 				F474FC5319761F9C00BD436C /* Supporting Files */,
 			);
@@ -126,6 +141,9 @@
 		F474FC5319761F9C00BD436C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F474FC5B19761F9C00BD436C /* BFPaperAppDelegate.h */,
+				F474FC5C19761F9C00BD436C /* BFPaperAppDelegate.m */,
+				F474FC5E19761F9C00BD436C /* Main.storyboard */,
 				F474FC5419761F9C00BD436C /* BFPaperColors-Info.plist */,
 				F474FC5519761F9C00BD436C /* InfoPlist.strings */,
 				F474FC5819761F9C00BD436C /* main.m */,
@@ -250,9 +268,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F474FC6319761F9C00BD436C /* BFPaperViewController.m in Sources */,
+				F4624641197631F1008CE1F3 /* BFPaperColorListViewController.m in Sources */,
+				F462463819762098008CE1F3 /* UIColor+BFPaperColors.m in Sources */,
 				F474FC5919761F9C00BD436C /* main.m in Sources */,
 				F474FC5D19761F9C00BD436C /* BFPaperAppDelegate.m in Sources */,
+				F462463E197631DD008CE1F3 /* BFPaperColorViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -457,6 +477,7 @@
 				F474FC7D19761F9C00BD436C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F474FC7E19761F9C00BD436C /* Build configuration list for PBXNativeTarget "BFPaperColorsTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +486,7 @@
 				F474FC8019761F9C00BD436C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
