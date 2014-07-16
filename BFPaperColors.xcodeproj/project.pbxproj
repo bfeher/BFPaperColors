@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F474FC4D19761F9C00BD436C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F474FC4C19761F9C00BD436C /* Foundation.framework */; };
+		F474FC4F19761F9C00BD436C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F474FC4E19761F9C00BD436C /* CoreGraphics.framework */; };
+		F474FC5119761F9C00BD436C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F474FC5019761F9C00BD436C /* UIKit.framework */; };
+		F474FC5719761F9C00BD436C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F474FC5519761F9C00BD436C /* InfoPlist.strings */; };
+		F474FC5919761F9C00BD436C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F474FC5819761F9C00BD436C /* main.m */; };
+		F474FC5D19761F9C00BD436C /* BFPaperAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F474FC5C19761F9C00BD436C /* BFPaperAppDelegate.m */; };
+		F474FC6019761F9C00BD436C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F474FC5E19761F9C00BD436C /* Main.storyboard */; };
+		F474FC6319761F9C00BD436C /* BFPaperViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F474FC6219761F9C00BD436C /* BFPaperViewController.m */; };
+		F474FC6519761F9C00BD436C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F474FC6419761F9C00BD436C /* Images.xcassets */; };
+		F474FC6C19761F9C00BD436C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F474FC6B19761F9C00BD436C /* XCTest.framework */; };
+		F474FC6D19761F9C00BD436C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F474FC4C19761F9C00BD436C /* Foundation.framework */; };
+		F474FC6E19761F9C00BD436C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F474FC5019761F9C00BD436C /* UIKit.framework */; };
+		F474FC7619761F9C00BD436C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F474FC7419761F9C00BD436C /* InfoPlist.strings */; };
+		F474FC7819761F9C00BD436C /* BFPaperColorsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F474FC7719761F9C00BD436C /* BFPaperColorsTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F474FC6F19761F9C00BD436C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F474FC4119761F9C00BD436C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F474FC4819761F9C00BD436C;
+			remoteInfo = BFPaperColors;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F474FC4919761F9C00BD436C /* BFPaperColors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BFPaperColors.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F474FC4C19761F9C00BD436C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F474FC4E19761F9C00BD436C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F474FC5019761F9C00BD436C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F474FC5419761F9C00BD436C /* BFPaperColors-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BFPaperColors-Info.plist"; sourceTree = "<group>"; };
+		F474FC5619761F9C00BD436C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F474FC5819761F9C00BD436C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F474FC5A19761F9C00BD436C /* BFPaperColors-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BFPaperColors-Prefix.pch"; sourceTree = "<group>"; };
+		F474FC5B19761F9C00BD436C /* BFPaperAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BFPaperAppDelegate.h; sourceTree = "<group>"; };
+		F474FC5C19761F9C00BD436C /* BFPaperAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BFPaperAppDelegate.m; sourceTree = "<group>"; };
+		F474FC5F19761F9C00BD436C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F474FC6119761F9C00BD436C /* BFPaperViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BFPaperViewController.h; sourceTree = "<group>"; };
+		F474FC6219761F9C00BD436C /* BFPaperViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BFPaperViewController.m; sourceTree = "<group>"; };
+		F474FC6419761F9C00BD436C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F474FC6A19761F9C00BD436C /* BFPaperColorsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BFPaperColorsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F474FC6B19761F9C00BD436C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F474FC7319761F9C00BD436C /* BFPaperColorsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BFPaperColorsTests-Info.plist"; sourceTree = "<group>"; };
+		F474FC7519761F9C00BD436C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F474FC7719761F9C00BD436C /* BFPaperColorsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BFPaperColorsTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F474FC4619761F9C00BD436C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F474FC4F19761F9C00BD436C /* CoreGraphics.framework in Frameworks */,
+				F474FC5119761F9C00BD436C /* UIKit.framework in Frameworks */,
+				F474FC4D19761F9C00BD436C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F474FC6719761F9C00BD436C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F474FC6C19761F9C00BD436C /* XCTest.framework in Frameworks */,
+				F474FC6E19761F9C00BD436C /* UIKit.framework in Frameworks */,
+				F474FC6D19761F9C00BD436C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F474FC4019761F9C00BD436C = {
+			isa = PBXGroup;
+			children = (
+				F474FC5219761F9C00BD436C /* BFPaperColors */,
+				F474FC7119761F9C00BD436C /* BFPaperColorsTests */,
+				F474FC4B19761F9C00BD436C /* Frameworks */,
+				F474FC4A19761F9C00BD436C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F474FC4A19761F9C00BD436C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F474FC4919761F9C00BD436C /* BFPaperColors.app */,
+				F474FC6A19761F9C00BD436C /* BFPaperColorsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F474FC4B19761F9C00BD436C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F474FC4C19761F9C00BD436C /* Foundation.framework */,
+				F474FC4E19761F9C00BD436C /* CoreGraphics.framework */,
+				F474FC5019761F9C00BD436C /* UIKit.framework */,
+				F474FC6B19761F9C00BD436C /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F474FC5219761F9C00BD436C /* BFPaperColors */ = {
+			isa = PBXGroup;
+			children = (
+				F474FC5B19761F9C00BD436C /* BFPaperAppDelegate.h */,
+				F474FC5C19761F9C00BD436C /* BFPaperAppDelegate.m */,
+				F474FC5E19761F9C00BD436C /* Main.storyboard */,
+				F474FC6119761F9C00BD436C /* BFPaperViewController.h */,
+				F474FC6219761F9C00BD436C /* BFPaperViewController.m */,
+				F474FC6419761F9C00BD436C /* Images.xcassets */,
+				F474FC5319761F9C00BD436C /* Supporting Files */,
+			);
+			path = BFPaperColors;
+			sourceTree = "<group>";
+		};
+		F474FC5319761F9C00BD436C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F474FC5419761F9C00BD436C /* BFPaperColors-Info.plist */,
+				F474FC5519761F9C00BD436C /* InfoPlist.strings */,
+				F474FC5819761F9C00BD436C /* main.m */,
+				F474FC5A19761F9C00BD436C /* BFPaperColors-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F474FC7119761F9C00BD436C /* BFPaperColorsTests */ = {
+			isa = PBXGroup;
+			children = (
+				F474FC7719761F9C00BD436C /* BFPaperColorsTests.m */,
+				F474FC7219761F9C00BD436C /* Supporting Files */,
+			);
+			path = BFPaperColorsTests;
+			sourceTree = "<group>";
+		};
+		F474FC7219761F9C00BD436C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F474FC7319761F9C00BD436C /* BFPaperColorsTests-Info.plist */,
+				F474FC7419761F9C00BD436C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F474FC4819761F9C00BD436C /* BFPaperColors */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F474FC7B19761F9C00BD436C /* Build configuration list for PBXNativeTarget "BFPaperColors" */;
+			buildPhases = (
+				F474FC4519761F9C00BD436C /* Sources */,
+				F474FC4619761F9C00BD436C /* Frameworks */,
+				F474FC4719761F9C00BD436C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BFPaperColors;
+			productName = BFPaperColors;
+			productReference = F474FC4919761F9C00BD436C /* BFPaperColors.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F474FC6919761F9C00BD436C /* BFPaperColorsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F474FC7E19761F9C00BD436C /* Build configuration list for PBXNativeTarget "BFPaperColorsTests" */;
+			buildPhases = (
+				F474FC6619761F9C00BD436C /* Sources */,
+				F474FC6719761F9C00BD436C /* Frameworks */,
+				F474FC6819761F9C00BD436C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F474FC7019761F9C00BD436C /* PBXTargetDependency */,
+			);
+			name = BFPaperColorsTests;
+			productName = BFPaperColorsTests;
+			productReference = F474FC6A19761F9C00BD436C /* BFPaperColorsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F474FC4119761F9C00BD436C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BFPaper;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Bence Feher";
+				TargetAttributes = {
+					F474FC6919761F9C00BD436C = {
+						TestTargetID = F474FC4819761F9C00BD436C;
+					};
+				};
+			};
+			buildConfigurationList = F474FC4419761F9C00BD436C /* Build configuration list for PBXProject "BFPaperColors" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F474FC4019761F9C00BD436C;
+			productRefGroup = F474FC4A19761F9C00BD436C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F474FC4819761F9C00BD436C /* BFPaperColors */,
+				F474FC6919761F9C00BD436C /* BFPaperColorsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F474FC4719761F9C00BD436C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F474FC6519761F9C00BD436C /* Images.xcassets in Resources */,
+				F474FC5719761F9C00BD436C /* InfoPlist.strings in Resources */,
+				F474FC6019761F9C00BD436C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F474FC6819761F9C00BD436C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F474FC7619761F9C00BD436C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F474FC4519761F9C00BD436C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F474FC6319761F9C00BD436C /* BFPaperViewController.m in Sources */,
+				F474FC5919761F9C00BD436C /* main.m in Sources */,
+				F474FC5D19761F9C00BD436C /* BFPaperAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F474FC6619761F9C00BD436C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F474FC7819761F9C00BD436C /* BFPaperColorsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F474FC7019761F9C00BD436C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F474FC4819761F9C00BD436C /* BFPaperColors */;
+			targetProxy = F474FC6F19761F9C00BD436C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F474FC5519761F9C00BD436C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F474FC5619761F9C00BD436C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F474FC5E19761F9C00BD436C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F474FC5F19761F9C00BD436C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F474FC7419761F9C00BD436C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F474FC7519761F9C00BD436C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F474FC7919761F9C00BD436C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F474FC7A19761F9C00BD436C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F474FC7C19761F9C00BD436C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BFPaperColors/BFPaperColors-Prefix.pch";
+				INFOPLIST_FILE = "BFPaperColors/BFPaperColors-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F474FC7D19761F9C00BD436C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BFPaperColors/BFPaperColors-Prefix.pch";
+				INFOPLIST_FILE = "BFPaperColors/BFPaperColors-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F474FC7F19761F9C00BD436C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BFPaperColors.app/BFPaperColors";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BFPaperColors/BFPaperColors-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BFPaperColorsTests/BFPaperColorsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		F474FC8019761F9C00BD436C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BFPaperColors.app/BFPaperColors";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BFPaperColors/BFPaperColors-Prefix.pch";
+				INFOPLIST_FILE = "BFPaperColorsTests/BFPaperColorsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F474FC4419761F9C00BD436C /* Build configuration list for PBXProject "BFPaperColors" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F474FC7919761F9C00BD436C /* Debug */,
+				F474FC7A19761F9C00BD436C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F474FC7B19761F9C00BD436C /* Build configuration list for PBXNativeTarget "BFPaperColors" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F474FC7C19761F9C00BD436C /* Debug */,
+				F474FC7D19761F9C00BD436C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F474FC7E19761F9C00BD436C /* Build configuration list for PBXNativeTarget "BFPaperColorsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F474FC7F19761F9C00BD436C /* Debug */,
+				F474FC8019761F9C00BD436C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F474FC4119761F9C00BD436C /* Project object */;
+}
