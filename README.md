@@ -27,7 +27,7 @@ CocoaPods are the best way to manage library dependencies in Objective-C project
 Learn more at http://cocoapods.org
 
 Add this to your podfile to add the UIColor+BFPaperColors category to your project.
-`pod 'UIColor+BFPaperColors',       '~> 1.0'`
+`pod 'UIColor+BFPaperColors',       '~> 1.1'`
 
 
 License
