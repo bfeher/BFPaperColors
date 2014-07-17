@@ -3,9 +3,9 @@ BFPaperColors
 
 > Flat colors taken from Google's Material Design: Paper.
 
-![Screenshot](https://raw.githubusercontent.com/bfeher/BFPaperColors/master/Screen%20Shot%202014-07-16%20at%2013.34.20.png "Screenshot")
+![Screenshot](https://raw.githubusercontent.com/bfeher/BFPaperColors/master/iOS%20Simulator%20Screen%20shot%20Jul%2017,%202014,%2015.35.22.png "Screenshot")
 
-![Blue Detail](https://raw.githubusercontent.com/bfeher/BFPaperColors/master/Screen%20Shot%202014-07-16%20at%2013.35.13.png "Blue Detail")
+![Light Blue Detail](https://raw.githubusercontent.com/bfeher/BFPaperColors/master/iOS%20Simulator%20Screen%20shot%20Jul%2017,%202014,%2015.35.32.png "Light Blue Detail")
 
 
 About
