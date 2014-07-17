@@ -19,6 +19,11 @@ Add the _UIColor+BFPaperColors_ header and implementation file to your project. 
 
 After doing that, it is a simple as calling:`[UIColor paperColorXXXXX]` (where XXXXX is the color of your choice). Each paper color method is prefixed with the words "paperColor" for easy recognition in Xcode's code complete. All colors have a wide range of shades, noted by a number suffix. For example, A very light blue could be `[UIColor paperColorLightBlue100]` while a darker shade could be `[UIColor paperColorLightBlue700]`.
 
+###Working Example
+```objective-c
+view.backgroundColor = [UIColor paperColorCyan600];
+```
+
 
 Cocoapods
 -------
@@ -27,11 +32,12 @@ CocoaPods are the best way to manage library dependencies in Objective-C project
 Learn more at http://cocoapods.org
 
 Add this to your podfile to add the UIColor+BFPaperColors category to your project.
-`pod 'UIColor+BFPaperColors',       '~> 1.1'`
-
+```ruby
+pod 'UIColor+BFPaperColors', '~> 1.1'
+```
 
 License
 --------
 _UIColor+BFPaperColors_ uses the MIT License:
 
-> Please see included [LICENSE file](https://raw.githubusercontent.com/bfeher/BFPaperColors/master/LICENSE).
+> Please see included [LICENSE file](https://raw.githubusercontent.com/bfeher/BFPaperColors/master/LICENSE.md).
