@@ -1,5 +1,6 @@
 BFPaperColors
 =============
+[![CocoaPods](https://img.shields.io/cocoapods/v/UIColor+BFPaperColors.svg?style=flat)](https://github.com/bfeher/BFPaperColors)
 
 > Flat colors taken from Google's Material Design: Paper.
 
