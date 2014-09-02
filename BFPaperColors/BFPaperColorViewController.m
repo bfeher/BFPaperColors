@@ -121,12 +121,14 @@
     cell.selectionStyle = UITableViewCellSelectionStyleNone;
     
     // Configure the cell...
-    if (indexPath.row == 0) {
-        
-    }
+    cell.backgroundColor = [self.color objectAtIndex:indexPath.row + 2];
+   
     cell.textLabel.text = [self.colorSuffixes objectAtIndex:indexPath.row];
     cell.textLabel.textColor = (indexPath.row < 6 || indexPath.row > 9) ? [UIColor paperColorGray900] : [UIColor paperColorGray100];
-    cell.backgroundColor = [self.color objectAtIndex:indexPath.row + 2];
+    
+    cell.detailTextLabel.text = [NSString stringWithFormat:@"#%@", [UIColor colorToHex:cell.backgroundColor]];
+    cell.detailTextLabel.textColor = (indexPath.row < 6 || indexPath.row > 9) ? [UIColor paperColorGray900] : [UIColor paperColorGray100];
+
     
     return cell;
 }
