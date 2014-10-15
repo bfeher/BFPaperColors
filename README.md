@@ -60,7 +60,7 @@ Learn more at http://cocoapods.org
 Add this to your podfile to add the UIColor+BFPaperColors category to your project.
 ```ruby
 platform :ios, '7.0'
-pod 'UIColor+BFPaperColors', '~> 1.2.2'
+pod 'UIColor+BFPaperColors', '~> 1.2.4'
 ```
 
 License
