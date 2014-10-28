@@ -126,7 +126,7 @@
     cell.textLabel.text = [self.colorSuffixes objectAtIndex:indexPath.row];
     cell.textLabel.textColor = (indexPath.row < 6 || indexPath.row > 9) ? [UIColor paperColorGray900] : [UIColor paperColorGray100];
     
-    cell.detailTextLabel.text = [NSString stringWithFormat:@"#%@", [UIColor colorToHex:cell.backgroundColor]];
+    cell.detailTextLabel.text = [NSString stringWithFormat:@"#%@", [UIColor hexStringFromRGBColor:cell.backgroundColor]];
     cell.detailTextLabel.textColor = (indexPath.row < 6 || indexPath.row > 9) ? [UIColor paperColorGray900] : [UIColor paperColorGray100];
 
     
