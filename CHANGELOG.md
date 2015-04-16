@@ -8,10 +8,10 @@ BFPaperColors
 
 1.4.10
 ---------
-+ Added a changelog!
-+ Added public utility function isColorDark.
-+ Added public utility function isColorLight.
-- Removed deprecated function colorToHex.
-^ Google updated some colors, so I followed suit and updated the colors.
-^ hexStringFromColor now returns an uppercase string.
-^ Some minor visual tweaks to the demo app.
++ + Added a changelog!
++ + Added public utility function isColorDark.
++ + Added public utility function isColorLight.
++ - Removed deprecated function colorToHex.
++ ^ Google updated some colors, so I followed suit and updated the colors.
++ ^ hexStringFromColor now returns an uppercase string.
++ ^ Some minor visual tweaks to the demo app.
