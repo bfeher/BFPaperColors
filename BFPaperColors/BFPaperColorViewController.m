@@ -55,7 +55,7 @@
     self.colorSuffixes = @[@"50", @"100", @"200", @"300", @"400", @"500", @"600", @"700", @"800", @"900", @"A100", @"A200", @"A400", @"A700"];
     
     self.tableView.dataSource = self;
-    self.navigationController.navigationBar.barTintColor = [self.color objectAtIndex:1];
+    self.navigationController.navigationBar.barTintColor = self.color[1];
     self.navigationController.navigationBar.translucent = NO;
     self.title = [self.color firstObject];
 }
@@ -63,19 +63,26 @@
 - (void)viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];
-    if ([[self.color firstObject] isEqualToString:@"Lime"]
-        ||
-        [[self.color firstObject] isEqualToString:@"Yellow"]) {
-        self.navigationController.navigationBar.tintColor = [UIColor paperColorGray900];
-        self.navigationController.navigationBar.titleTextAttributes = [NSDictionary dictionaryWithObjectsAndKeys:
-                                                                       [UIColor paperColorGray900], NSForegroundColorAttributeName,
-                                                                       [UIFont fontWithName:@"RobotoCondensed-Regular" size:20], NSFontAttributeName,
-                                                                       nil];
-        [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleDefault];
+    
+    UIColor *titleColor = [UIColor paperColorGray100];
+    
+    if ([UIColor isColorDark:self.color[1]]) {
+        self.navigationController.navigationBar.tintColor = [UIColor paperColorGray100];
+        self.navigationController.navigationBar.backItem.titleView.tintColor = [UIColor paperColorGray100];
         
-        
-        self.navigationController.navigationBar.backItem.titleView.tintColor = [UIColor paperColorPink];
+        [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];
     }
+    else {
+        titleColor = [UIColor paperColorGray900];
+        self.navigationController.navigationBar.tintColor = [UIColor paperColorGray900];
+        self.navigationController.navigationBar.backItem.titleView.tintColor = [UIColor paperColorGray900];
+        [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleDefault];
+    }
+    
+    self.navigationController.navigationBar.titleTextAttributes = [NSDictionary dictionaryWithObjectsAndKeys:
+                                                                   titleColor, NSForegroundColorAttributeName,
+                                                                   [UIFont fontWithName:@"RobotoCondensed-Regular" size:20], NSFontAttributeName,
+                                                                   nil];
 }
 
 - (void)viewWillDisappear:(BOOL)animated
@@ -121,13 +128,15 @@
     cell.selectionStyle = UITableViewCellSelectionStyleNone;
     
     // Configure the cell...
-    cell.backgroundColor = [self.color objectAtIndex:indexPath.row + 2];
+    UIColor *color = [self.color objectAtIndex:indexPath.row + 2];
+    cell.backgroundColor = color;
    
     cell.textLabel.text = [self.colorSuffixes objectAtIndex:indexPath.row];
-    cell.textLabel.textColor = (indexPath.row < 6 || indexPath.row > 9) ? [UIColor paperColorGray900] : [UIColor paperColorGray100];
+    cell.textLabel.textColor = [UIColor isColorLight:color] ? [UIColor paperColorGray900] : [UIColor paperColorGray100];
+
     
     cell.detailTextLabel.text = [NSString stringWithFormat:@"#%@", [UIColor hexStringFromRGBColor:cell.backgroundColor]];
-    cell.detailTextLabel.textColor = (indexPath.row < 6 || indexPath.row > 9) ? [UIColor paperColorGray900] : [UIColor paperColorGray100];
+    cell.detailTextLabel.textColor = [UIColor isColorLight:color] ? [UIColor paperColorGray900] : [UIColor paperColorGray100];
 
     
     return cell;

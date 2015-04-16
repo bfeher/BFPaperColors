@@ -469,15 +469,7 @@
     // Configure the cell...
     cell.textLabel.text = [[self.colorsArray objectAtIndex:indexPath.row] firstObject];
     cell.backgroundColor = [[self.colorsArray objectAtIndex:indexPath.row] objectAtIndex:1];
-    NSString *colorString = [[self.colorsArray objectAtIndex:indexPath.row] firstObject];
-    if ([colorString isEqualToString:@"Lime"]
-        ||
-        [colorString isEqualToString:@"Yellow"]) {
-        cell.textLabel.textColor = [UIColor paperColorGray900];
-    }
-    else {
-        cell.textLabel.textColor = [UIColor whiteColor];
-    }
+    cell.textLabel.textColor = [UIColor isColorDark:cell.backgroundColor] ? [UIColor whiteColor] : [UIColor paperColorGray900];
     
     return cell;
 }
