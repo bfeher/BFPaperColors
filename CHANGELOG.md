@@ -5,6 +5,10 @@ BFPaperColors
 > Note that this changelog was started very late, at roughly the time between version 1.3.1 and 1.4.10. Non consecutive jumps in changelog mean that there were incremental builds that weren't released as a pod, typically while solving a problem.
 
 
+1.5.1
+---------
++ + Added text colors! (paperColorTextDark, paperColorTextLight, and their variants.)
+
 
 1.4.10
 ---------
