@@ -174,7 +174,7 @@
 {
     self.chosenColor = self.color[indexPath.row + 2];
     self.chosenColorName = [NSString stringWithFormat:@"%@ %@", self.color[0], self.colorSuffixes[indexPath.row]];
-    [self performSegueWithIdentifier:@"Show color detail" sender:self];
+    [self performSegueWithIdentifier:@"ShowColorDetail.segue" sender:self];
 }
 
 @end

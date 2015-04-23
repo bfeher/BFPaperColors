@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		F42A14471AE8821600D6F4E1 /* ColorDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F42A14461AE8821600D6F4E1 /* ColorDetailViewController.m */; };
+		F42A14491AE8AC1E00D6F4E1 /* Shared.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F42A14481AE8AC1E00D6F4E1 /* Shared.storyboard */; };
 		F462463E197631DD008CE1F3 /* BFPaperColorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F462463D197631DD008CE1F3 /* BFPaperColorViewController.m */; };
 		F4624641197631F1008CE1F3 /* BFPaperColorListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4624640197631F1008CE1F3 /* BFPaperColorListViewController.m */; };
 		F474FC4D19761F9C00BD436C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F474FC4C19761F9C00BD436C /* Foundation.framework */; };
@@ -16,7 +17,6 @@
 		F474FC5719761F9C00BD436C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F474FC5519761F9C00BD436C /* InfoPlist.strings */; };
 		F474FC5919761F9C00BD436C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F474FC5819761F9C00BD436C /* main.m */; };
 		F474FC5D19761F9C00BD436C /* BFPaperAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F474FC5C19761F9C00BD436C /* BFPaperAppDelegate.m */; };
-		F474FC6019761F9C00BD436C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F474FC5E19761F9C00BD436C /* Main.storyboard */; };
 		F474FC6519761F9C00BD436C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F474FC6419761F9C00BD436C /* Images.xcassets */; };
 		F474FC6C19761F9C00BD436C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F474FC6B19761F9C00BD436C /* XCTest.framework */; };
 		F474FC6D19761F9C00BD436C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F474FC4C19761F9C00BD436C /* Foundation.framework */; };
@@ -39,6 +39,7 @@
 /* Begin PBXFileReference section */
 		F42A14451AE8821600D6F4E1 /* ColorDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorDetailViewController.h; sourceTree = "<group>"; };
 		F42A14461AE8821600D6F4E1 /* ColorDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorDetailViewController.m; sourceTree = "<group>"; };
+		F42A14481AE8AC1E00D6F4E1 /* Shared.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Shared.storyboard; sourceTree = "<group>"; };
 		F462463C197631DD008CE1F3 /* BFPaperColorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFPaperColorViewController.h; sourceTree = "<group>"; };
 		F462463D197631DD008CE1F3 /* BFPaperColorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFPaperColorViewController.m; sourceTree = "<group>"; };
 		F462463F197631F1008CE1F3 /* BFPaperColorListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFPaperColorListViewController.h; sourceTree = "<group>"; };
@@ -53,7 +54,6 @@
 		F474FC5A19761F9C00BD436C /* BFPaperColors-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BFPaperColors-Prefix.pch"; sourceTree = "<group>"; };
 		F474FC5B19761F9C00BD436C /* BFPaperAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BFPaperAppDelegate.h; sourceTree = "<group>"; };
 		F474FC5C19761F9C00BD436C /* BFPaperAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BFPaperAppDelegate.m; sourceTree = "<group>"; };
-		F474FC5F19761F9C00BD436C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F474FC6419761F9C00BD436C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F474FC6A19761F9C00BD436C /* BFPaperColorsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BFPaperColorsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F474FC6B19761F9C00BD436C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -139,7 +139,7 @@
 			children = (
 				F474FC5B19761F9C00BD436C /* BFPaperAppDelegate.h */,
 				F474FC5C19761F9C00BD436C /* BFPaperAppDelegate.m */,
-				F474FC5E19761F9C00BD436C /* Main.storyboard */,
+				F42A14481AE8AC1E00D6F4E1 /* Shared.storyboard */,
 				F474FC5419761F9C00BD436C /* BFPaperColors-Info.plist */,
 				F474FC5519761F9C00BD436C /* InfoPlist.strings */,
 				F474FC5819761F9C00BD436C /* main.m */,
@@ -255,7 +255,7 @@
 			files = (
 				F474FC6519761F9C00BD436C /* Images.xcassets in Resources */,
 				F474FC5719761F9C00BD436C /* InfoPlist.strings in Resources */,
-				F474FC6019761F9C00BD436C /* Main.storyboard in Resources */,
+				F42A14491AE8AC1E00D6F4E1 /* Shared.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,14 +324,6 @@
 				F474FC5619761F9C00BD436C /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		F474FC5E19761F9C00BD436C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F474FC5F19761F9C00BD436C /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		F474FC7419761F9C00BD436C /* InfoPlist.strings */ = {
@@ -425,7 +417,7 @@
 				INFOPLIST_FILE = "BFPaperColors/BFPaperColors-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -440,7 +432,7 @@
 				INFOPLIST_FILE = "BFPaperColors/BFPaperColors-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

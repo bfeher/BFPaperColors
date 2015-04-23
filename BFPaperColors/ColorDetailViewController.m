@@ -16,6 +16,9 @@
 @property (weak, nonatomic) IBOutlet UISegmentedControl *segment;
 @property (weak, nonatomic) IBOutlet UITabBar *tabBar;
 @property UIColor *blackWhiteColor;
+@property (weak, nonatomic) IBOutlet UISwitch *fakeSwitch;
+@property (weak, nonatomic) IBOutlet UIButton *fakeButton;
+@property (weak, nonatomic) IBOutlet UIButton *fakeButtonHeavy;
 @end
 
 @implementation ColorDetailViewController
@@ -59,6 +62,12 @@
         self.segment.tintColor = self.blackWhiteColor;
         self.tabBar.barTintColor = self.color;
         self.tabBar.tintColor = self.blackWhiteColor;
+        self.fakeSwitch.onTintColor = self.blackWhiteColor;
+        self.fakeSwitch.tintColor = self.blackWhiteColor;
+        [self.fakeButton setTitleColor:self.blackWhiteColor forState:UIControlStateNormal];
+        self.fakeButton.backgroundColor = self.color;
+        [self.fakeButtonHeavy setTitleColor:self.color forState:UIControlStateNormal];
+        self.fakeButtonHeavy.backgroundColor = self.blackWhiteColor;
     }
     else {
         // Normal:
@@ -69,10 +78,16 @@
         self.sliderLabel.textColor = self.color;
         self.slider.tintColor = self.color;
         self.switchLabel.textColor = self.color;
-        self.invertSwitch.onTintColor = self.color;
+        self.invertSwitch.tintColor = self.color;
         self.segment.tintColor = self.color;
         self.tabBar.barTintColor = self.blackWhiteColor;
         self.tabBar.tintColor = self.color;
+        self.fakeSwitch.onTintColor = self.color;
+        self.fakeSwitch.tintColor = self.color;
+        [self.fakeButton setTitleColor:self.color forState:UIControlStateNormal];
+        self.fakeButton.backgroundColor = self.blackWhiteColor;
+        [self.fakeButtonHeavy setTitleColor:self.blackWhiteColor forState:UIControlStateNormal];
+        self.fakeButtonHeavy.backgroundColor = self.color;
     }
 }
 

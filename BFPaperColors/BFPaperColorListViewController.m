@@ -489,7 +489,7 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     self.chosenColor = [self.colorsArray objectAtIndex:indexPath.row];
-    [self performSegueWithIdentifier:@"Push to Color View" sender:self];
+    [self performSegueWithIdentifier:@"PushToColorView.segue" sender:self];
 }
 
 @end
