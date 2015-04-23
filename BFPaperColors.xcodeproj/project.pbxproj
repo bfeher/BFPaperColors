@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F42A14471AE8821600D6F4E1 /* ColorDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F42A14461AE8821600D6F4E1 /* ColorDetailViewController.m */; };
 		F462463E197631DD008CE1F3 /* BFPaperColorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F462463D197631DD008CE1F3 /* BFPaperColorViewController.m */; };
 		F4624641197631F1008CE1F3 /* BFPaperColorListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4624640197631F1008CE1F3 /* BFPaperColorListViewController.m */; };
 		F474FC4D19761F9C00BD436C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F474FC4C19761F9C00BD436C /* Foundation.framework */; };
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F42A14451AE8821600D6F4E1 /* ColorDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorDetailViewController.h; sourceTree = "<group>"; };
+		F42A14461AE8821600D6F4E1 /* ColorDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorDetailViewController.m; sourceTree = "<group>"; };
 		F462463C197631DD008CE1F3 /* BFPaperColorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFPaperColorViewController.h; sourceTree = "<group>"; };
 		F462463D197631DD008CE1F3 /* BFPaperColorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFPaperColorViewController.m; sourceTree = "<group>"; };
 		F462463F197631F1008CE1F3 /* BFPaperColorListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFPaperColorListViewController.h; sourceTree = "<group>"; };
@@ -119,10 +122,12 @@
 			isa = PBXGroup;
 			children = (
 				F4A4D7E1197648BA0059EAE6 /* UIColor+BFPaperColors */,
-				F462463C197631DD008CE1F3 /* BFPaperColorViewController.h */,
-				F462463D197631DD008CE1F3 /* BFPaperColorViewController.m */,
 				F462463F197631F1008CE1F3 /* BFPaperColorListViewController.h */,
 				F4624640197631F1008CE1F3 /* BFPaperColorListViewController.m */,
+				F462463C197631DD008CE1F3 /* BFPaperColorViewController.h */,
+				F462463D197631DD008CE1F3 /* BFPaperColorViewController.m */,
+				F42A14451AE8821600D6F4E1 /* ColorDetailViewController.h */,
+				F42A14461AE8821600D6F4E1 /* ColorDetailViewController.m */,
 				F474FC6419761F9C00BD436C /* Images.xcassets */,
 				F474FC5319761F9C00BD436C /* Supporting Files */,
 			);
@@ -290,6 +295,7 @@
 				F474FC5919761F9C00BD436C /* main.m in Sources */,
 				F474FC5D19761F9C00BD436C /* BFPaperAppDelegate.m in Sources */,
 				F462463E197631DD008CE1F3 /* BFPaperColorViewController.m in Sources */,
+				F42A14471AE8821600D6F4E1 /* ColorDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,6 +425,7 @@
 				INFOPLIST_FILE = "BFPaperColors/BFPaperColors-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -433,6 +440,7 @@
 				INFOPLIST_FILE = "BFPaperColors/BFPaperColors-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

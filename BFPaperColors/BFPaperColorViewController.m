@@ -30,10 +30,14 @@
 
 
 #import "BFPaperColorViewController.h"
+// Classes:
+#import "ColorDetailViewController.h"
 
 @interface BFPaperColorViewController ()
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 @property NSArray *colorSuffixes;
+@property UIColor *chosenColor;
+@property NSString *chosenColorName;
 @end
 
 @implementation BFPaperColorViewController
@@ -55,9 +59,11 @@
     self.colorSuffixes = @[@"50", @"100", @"200", @"300", @"400", @"500", @"600", @"700", @"800", @"900", @"A100", @"A200", @"A400", @"A700"];
     
     self.tableView.dataSource = self;
+    self.tableView.delegate = self;
     self.navigationController.navigationBar.barTintColor = self.color[1];
     self.navigationController.navigationBar.translucent = NO;
     self.title = [self.color firstObject];
+    //NSLog(@"color: %@", self.color);
 }
 
 - (void)viewWillAppear:(BOOL)animated
@@ -103,6 +109,15 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    UINavigationController *navC = segue.destinationViewController;
+    ColorDetailViewController *colorDetailVC = navC.viewControllers[0];
+    colorDetailVC.color = self.chosenColor;
+    colorDetailVC.colorName = self.chosenColorName;
+}
+
+
 #pragma mark - Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
@@ -128,10 +143,10 @@
     cell.selectionStyle = UITableViewCellSelectionStyleNone;
     
     // Configure the cell...
-    UIColor *color = [self.color objectAtIndex:indexPath.row + 2];
+    UIColor *color = self.color[indexPath.row + 2];
     cell.backgroundColor = color;
    
-    cell.textLabel.text = [self.colorSuffixes objectAtIndex:indexPath.row];
+    cell.textLabel.text = self.colorSuffixes[indexPath.row];
     cell.textLabel.textColor = [UIColor isColorLight:color] ? [UIColor paperColorGray900] : [UIColor paperColorGray100];
 
     
@@ -151,6 +166,15 @@
 - (CGFloat)tableView:(UITableView *)tableView heightForFooterInSection:(NSInteger)section
 {
     return 0;
+}
+
+
+#pragma mark - Table view delegate
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    self.chosenColor = self.color[indexPath.row + 2];
+    self.chosenColorName = [NSString stringWithFormat:@"%@ %@", self.color[0], self.colorSuffixes[indexPath.row]];
+    [self performSegueWithIdentifier:@"Show color detail" sender:self];
 }
 
 @end
