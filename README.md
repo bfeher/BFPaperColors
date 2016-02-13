@@ -74,7 +74,7 @@ Returns a simple gradient layer built from two colors.<br />
 
 
 
-Cocoapods
+CocoaPods
 -------
 
 CocoaPods are the best way to manage library dependencies in Objective-C projects.
