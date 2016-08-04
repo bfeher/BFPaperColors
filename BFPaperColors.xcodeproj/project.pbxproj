@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5058491D1D53032100FEE8FE /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5058491C1D53032100FEE8FE /* Launch Screen.storyboard */; };
 		F42A14471AE8821600D6F4E1 /* ColorDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F42A14461AE8821600D6F4E1 /* ColorDetailViewController.m */; };
 		F42A14491AE8AC1E00D6F4E1 /* Shared.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F42A14481AE8AC1E00D6F4E1 /* Shared.storyboard */; };
 		F462463E197631DD008CE1F3 /* BFPaperColorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F462463D197631DD008CE1F3 /* BFPaperColorViewController.m */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5058491C1D53032100FEE8FE /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		F42A14451AE8821600D6F4E1 /* ColorDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorDetailViewController.h; sourceTree = "<group>"; };
 		F42A14461AE8821600D6F4E1 /* ColorDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorDetailViewController.m; sourceTree = "<group>"; };
 		F42A14481AE8AC1E00D6F4E1 /* Shared.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Shared.storyboard; sourceTree = "<group>"; };
@@ -144,6 +146,7 @@
 				F474FC5519761F9C00BD436C /* InfoPlist.strings */,
 				F474FC5819761F9C00BD436C /* main.m */,
 				F474FC5A19761F9C00BD436C /* BFPaperColors-Prefix.pch */,
+				5058491C1D53032100FEE8FE /* Launch Screen.storyboard */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -255,6 +258,7 @@
 			files = (
 				F474FC6519761F9C00BD436C /* Images.xcassets in Resources */,
 				F474FC5719761F9C00BD436C /* InfoPlist.strings in Resources */,
+				5058491D1D53032100FEE8FE /* Launch Screen.storyboard in Resources */,
 				F42A14491AE8AC1E00D6F4E1 /* Shared.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,7 +416,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BFPaperColors/BFPaperColors-Prefix.pch";
 				INFOPLIST_FILE = "BFPaperColors/BFPaperColors-Info.plist";
@@ -428,7 +431,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BFPaperColors/BFPaperColors-Prefix.pch";
 				INFOPLIST_FILE = "BFPaperColors/BFPaperColors-Info.plist";

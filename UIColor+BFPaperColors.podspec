@@ -1,12 +1,12 @@
 
 Pod::Spec.new do |s|
   s.name         = "UIColor+BFPaperColors"
-  s.version      = "1.7.2"
+  s.version      = "1.7.6"
   s.summary      = "A category for UIColor that adds flat UI color methods inspired by Google's Material Design, Paper."
   s.homepage     = "https://github.com/bfeher/BFPaperColors"
   s.license      = { :type => 'MIT', :file => 'LICENSE.md' }
   s.author       = { "Bence Feher" => "ben.feher@gmail.com" }
-  s.source       = { :git => "https://github.com/bfeher/BFPaperColors.git", :tag => "1.7.2" }
+  s.source       = { :git => "https://github.com/bfeher/BFPaperColors.git", :tag => "1.7.6" }
   s.platform     = :ios, '7.0'
  
   
