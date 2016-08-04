@@ -74,7 +74,7 @@ Utility Macro and Functions
 
 
 
-Cocoapods
+CocoaPods
 -------
 
 CocoaPods are the best way to manage library dependencies in Objective-C projects.
