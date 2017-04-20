@@ -23,7 +23,7 @@ Add the _UIColor+BFPaperColors_ header and implementation file to your project. 
 
 After doing that, it is a simple as calling:`[UIColor paperColorXXXXX]` (where XXXXX is the color of your choice). Each paper color method is prefixed with the words "paperColor" for easy recognition in Xcode's code complete. All colors have a wide range of shades, noted by a number suffix. For example, A very light blue could be `[UIColor paperColorLightBlue100]` while a darker shade could be `[UIColor paperColorLightBlue700]`.
 
-###Working Example
+### Working Example
 ```objective-c
 view.backgroundColor = [UIColor paperColorCyan600];
 ```
